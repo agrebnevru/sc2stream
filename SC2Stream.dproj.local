@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011.05.27 22:55:31.475.pas,C:\Users\Алексей\Documents\RAD Studio\Projects\Unit1.pas=D:\Programming\delfi_2010\__sc2stream\UnitMain.pas</Transaction>
+    <Transaction>2011.05.27 22:55:31.475.dfm,C:\Users\Алексей\Documents\RAD Studio\Projects\Unit1.dfm=D:\Programming\delfi_2010\__sc2stream\UnitMain.dfm</Transaction>
+    <Transaction>2011.05.27 22:55:40.454.dproj,C:\Users\Алексей\Documents\RAD Studio\Projects\Project1.dproj=D:\Programming\delfi_2010\__sc2stream\SC2Stream.dproj</Transaction>
+    <Transaction>2011.07.04 17:55:37.872.pas,D:\Programming\delphi_2010\__sc2stream\Unit1.pas=D:\Programming\delphi_2010\__sc2stream\UnitViewer.pas</Transaction>
+    <Transaction>2011.07.04 17:55:37.882.dfm,D:\Programming\delphi_2010\__sc2stream\Unit1.dfm=D:\Programming\delphi_2010\__sc2stream\UnitViewer.dfm</Transaction>
+    <Transaction>2011.07.06 12:09:32.091.pas,D:\Programming\delphi_2010\__sc2stream\Unit1.pas=D:\Programming\delphi_2010\__sc2stream\ThreadLoadPrew.pas</Transaction>
+    <Transaction>2011.07.06 17:37:58.312.pas,D:\Programming\delphi_2010\__sc2stream\Unit1.pas=D:\Programming\delphi_2010\__sc2stream\ThreadStream_status.pas</Transaction>
+  </Transactions>
+</BorlandProject>

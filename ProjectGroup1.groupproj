@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{6AC39C51-4DDF-4701-B731-2895D0E59AEA}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="SC2Stream.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="C:\Users\Алексей\Documents\RAD Studio\Projects\Html2.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="SC2Stream">
+			<MSBuild Projects="SC2Stream.dproj"/>
+		</Target>
+		<Target Name="SC2Stream:Clean">
+			<MSBuild Targets="Clean" Projects="SC2Stream.dproj"/>
+		</Target>
+		<Target Name="SC2Stream:Make">
+			<MSBuild Targets="Make" Projects="SC2Stream.dproj"/>
+		</Target>
+		<Target Name="Html2">
+			<MSBuild Projects="C:\Users\Алексей\Documents\RAD Studio\Projects\Html2.dproj"/>
+		</Target>
+		<Target Name="Html2:Clean">
+			<MSBuild Targets="Clean" Projects="C:\Users\Алексей\Documents\RAD Studio\Projects\Html2.dproj"/>
+		</Target>
+		<Target Name="Html2:Make">
+			<MSBuild Targets="Make" Projects="C:\Users\Алексей\Documents\RAD Studio\Projects\Html2.dproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="SC2Stream;Html2"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="SC2Stream:Clean;Html2:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="SC2Stream:Make;Html2:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

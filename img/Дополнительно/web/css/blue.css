@@ -1,0 +1,6 @@
+/* Stylesheet 1.blue -------------------------------*/
+
+	#navigation a { background:url(../images/button1_bg.gif) no-repeat; }
+	.post h1 { background:url(../images/title_bg1.gif) repeat-x #0d2368; } 
+	#subnav a { color:#81b6ff; }
+	#subnav a:hover { color:#eef5ff } 
